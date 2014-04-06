@@ -3,11 +3,12 @@
 </head>
 
 <body>
-  {{> hello}}
+  {{> heading}}
 </body>
 
-<template name="hello">
-  <h1>Hello World!</h1>
-  {{greeting}}
-  <input type="button" value="Click" />
+<template name="heading">
+    <div style="float: right; margin-right: 20px">
+        {{> loginButtons align="right"}}
+    </div>
+    <h1>13 Favorites!</h1><br>
 </template>

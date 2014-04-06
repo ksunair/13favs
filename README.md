@@ -5,14 +5,14 @@
 
 *** User login by
 
-user id/email
-meteor add accounts-base
-meteor add accounts-password
-meteor add email
-meteor add accounts-ui
+user id/email<br>
+meteor add accounts-base<br>
+meteor add accounts-password<br>
+meteor add email<br>
+meteor add accounts-ui<br>
 
-others Twitter/Facebook/Google
-meteor add accounts-twitter
-meteor add accounts-google
-meteor add accounts-facebook
+others Twitter/Facebook/Google<br>
+meteor add accounts-twitter<br>
+meteor add accounts-google<br>
+meteor add accounts-facebook<br>
 

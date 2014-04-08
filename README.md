@@ -8,6 +8,8 @@ removed all accounts except email/password
 removed insecure
 added css
 
+deleted initial js file.
+
 *** User login by
 
 user id/email<br>

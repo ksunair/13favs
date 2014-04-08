@@ -3,6 +3,11 @@
 
 13 favorites items (movies, music etc.,)
 
+*** 4/7
+removed all accounts except email/password
+removed insecure
+added css
+
 *** User login by
 
 user id/email<br>

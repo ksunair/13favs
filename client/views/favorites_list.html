@@ -1,0 +1,11 @@
+<template name="favorites_main">
+    <ul id="favorites_list" class="list-group">
+        {{#each favorites}}
+        <li class="list-inline list-group-item-warning">
+            <button type="button" class="btn btn-warning"
+                    id="{{Name}}">x</button>
+            {{Name}}
+        </li>
+        {{/each}}
+    </ul>
+</template>

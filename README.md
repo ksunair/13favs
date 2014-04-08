@@ -4,9 +4,9 @@
 13 favorites items (movies, music etc.,)
 
 *** 4/7
-removed all accounts except email/password
-removed insecure
-added css
+removed all accounts except email/password<br>
+removed insecure<br>
+added css<br>
 
 deleted initial js file.
 

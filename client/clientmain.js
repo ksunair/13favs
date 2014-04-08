@@ -1,11 +1,7 @@
-var Favorites = [
-    { Name: "Seven Samurai"},
-    { Name: "Bad Boys"}
-];
 
-Template.favorites_main.favorites = function() {
-    return Favorites;
-};
+Template.favorites_main.helpers({
+    favorites: Favorites
+});
 
 Accounts.ui.config({
         passwordSignupFields: 'USERNAME_AND_EMAIL'

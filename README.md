@@ -2,6 +2,9 @@
 ======
 
 13 favorites items (movies, music etc.,)
+*** 4/8
+Moved the initial collection to Lib folder as it get processed initially.<br>
+Also changed 'c' to 'C' in collection generation to fix the runtime error.
 
 *** 4/7
 removed all accounts except email/password<br>

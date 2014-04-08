@@ -1,6 +1,6 @@
 
 Template.favorites_main.helpers({
-    favorites: Favorites
+    favorites: Favorites.find({})
 });
 
 Accounts.ui.config({

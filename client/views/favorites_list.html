@@ -1,11 +1,16 @@
 <template name="favorites_main">
-    <ul id="favorites_list" class="list-group">
+    <table id="favorites_list" class="table table-striped table-hover">
         {{#each favorites}}
-        <li class="list-inline list-group-item">
-            <button type="button" class="btn btn-warning"
-                    id="{{Name}}">x</button>
-            {{Name}}
-        </li>
+        <tr>
+            <td width="5%"><h3 class="success">{{score}}</h3></td>
+            <td width="80%"><h3>{{Name}}</h3></td>
+            <td width="10%">
+                <div class="btn-group" style="margin: 9px 0;">
+                    <button id="up" class="btn btn-success">Up</button>
+                    <button id="down" class="btn btn-danger">Down</button>
+                </div>
+            </td>
+        </tr>
         {{/each}}
-    </ul>
+    </table>
 </template>

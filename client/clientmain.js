@@ -1,5 +1,5 @@
 
-Template.favorites_main.favorites = function() {
+Template.favorites_main_body.favorites = function() {
     var favs = Favorites.find({}, {sort: {score: -1}});
     for(var i = 0; i < favs.length; i++) {
         var d = favs[i];
